@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class Home_Bundle_Save_Page extends BasePage {
+public class Home_Bundle_Save_Page extends HomePage_Tabs {
 
     private By origin = By.id("package-origin-hp-package");
     private By destination = By.id("package-destination-hp-package");
@@ -15,27 +15,30 @@ public class Home_Bundle_Save_Page extends BasePage {
         super(driver);
     }
 
-    public void enterOrigin(String origin) {
+    public Home_Bundle_Save_Page enterOrigin(String origin) {
         enterText(this.origin, origin);
+        return this;
     }
 
-    public void enterDestination(String destination) {
+    public Home_Bundle_Save_Page enterDestination(String destination) {
         enterText(this.destination, destination);
+        return this;
     }
 
-    public void enterDepartingDate(String departingDate) {
+    public Home_Bundle_Save_Page enterDepartingDate(String departingDate) {
         enterText(this.departingDate, departingDate);
+        return this;
     }
 
-    public void enterReturningDate(String returningDate) {
+    public Home_Bundle_Save_Page enterReturningDate(String returningDate) {
         enterText(this.returningDate, returningDate);
+        return this;
     }
 
-    public void clickSearchButton() {
+    public Home_Bundle_Save_Page clickSearchButton() {
         clickButton(this.searchButton);
+        return this;
     }
 
-    public void navigateTo() {
-        navigateToUrl("https://www.expedia.com/");
-    }
+
 }
