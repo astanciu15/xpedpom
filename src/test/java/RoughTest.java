@@ -28,7 +28,6 @@ public class RoughTest {
 
     }
 
-    @Ignore
     @Test
     public void testMethod1() {
 //        homeBundleSavePage.navigateTo();
@@ -47,11 +46,14 @@ public class RoughTest {
     }
 
     @Test
-    public void testMethod2(){
+    public void testMethod2() {
         homeCars.navigateToBasePage();
         homeCars.clickCarsTab();
+        homeCars.enterPickupDropoffLocations("Malta, Montana", "New York, New York");
+        homeCars.enterPickupDropoffDates("03/11/2019", "03/17/2019");
+        homeCars.selectPickupDropoffTimes("0415AM", "0930PM");
         homeCars.checkAarpCheckbox();
-        homeCars.uncheckAarpCheckbox();
+        homeCars.clickSearchButton();
     }
 
 

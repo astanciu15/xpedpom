@@ -45,14 +45,14 @@ public class BasePage {
         }
     }
 
-    protected void checkCheckbox(By by){
-        if(!driver.findElement(by).isSelected()){
+    protected void checkCheckbox(By by) {
+        if (!driver.findElement(by).isSelected()) {
             driver.findElement(by).click();
         }
     }
 
-    protected void uncheckCheckbox(By by){
-        if(driver.findElement(by).isSelected()){
+    protected void uncheckCheckbox(By by) {
+        if (driver.findElement(by).isSelected()) {
             driver.findElement(by).click();
         }
     }

@@ -3,7 +3,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage_Tabs extends BasePage{
+public class HomePage_Tabs extends BasePage {
     private By bundleAndSaveTab = By.id("tab-package-tab-hp");
     private By carsTab = By.id("tab-car-tab-hp");
 
@@ -15,11 +15,11 @@ public class HomePage_Tabs extends BasePage{
         navigateToUrl("https://www.expedia.com/");
     }
 
-    public void clickToBundleAndSaveTab(){
+    public void clickBundleAndSaveTab() {
         clickButton(bundleAndSaveTab);
     }
 
-    public void clickCarsTab(){
+    public void clickCarsTab() {
         clickButton(carsTab);
     }
 
