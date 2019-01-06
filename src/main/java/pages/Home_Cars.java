@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.ui.Select;
@@ -18,8 +19,8 @@ public class Home_Cars extends HomePage_Tabs {
     private By aarpCheckbox = By.id("aarp-car-rates-check-hp-car");
 
 
-    public Home_Cars(WebDriver driver) {
-        super(driver);
+    public Home_Cars(WebDriver driver, Logger logger) {
+        super(driver, logger);
     }
 
     private Home_Cars enterPickingUp(String pickupLocation) {

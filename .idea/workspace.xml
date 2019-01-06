@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a30e5e5-a579-4783-a02d-a1f783b46e8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/TestBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/configs/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/BasePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage_Tabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage_Tabs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Home_Cars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Home_Cars.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/RoughTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RoughTest.java" afterDir="false" />
     </list>
@@ -21,29 +25,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="527">
-              <caret line="31" column="21" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+            <state relative-caret-position="110">
+              <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/configs/log4j2.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="119">
+              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/logs/all.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+            <state>
+              <caret lean-forward="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RoughTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,22 +71,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/RoughTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Cars.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+            <state relative-caret-position="212">
+              <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -78,8 +85,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage_Tabs.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="127">
+              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Cars.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -108,13 +139,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/TempClass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RoughTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/resources/configs/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/HomePage_Tabs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/Home_Cars.java" />
-        <option value="$PROJECT_DIR$/src/test/java/RoughTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java" />
       </list>
     </option>
   </component>
@@ -126,8 +159,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="15" />
-    <option name="y" value="30" />
+    <option name="x" value="39" />
     <option name="width" value="1890" />
     <option name="height" value="960" />
   </component>
@@ -138,7 +170,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,14 +216,38 @@
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="xpedpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xpedpom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xpedpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xpedpom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="configs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="xpedpom" type="b2602c69:ProjectViewProjectNode" />
+              <item name="xpedpom" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546343415638" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546767765677" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
   </component>
   <component name="RunDashboard">
@@ -308,45 +363,53 @@
       <option name="project" value="LOCAL" />
       <updated>1546275356579</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="added Home_CarsTab methods and test.">
+      <created>1546343760033</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1546343760033</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="RoughTest - 2019.01.01 at 13h 26m 23s.xml">
+    <history-entry file="RoughTest - 2019.01.06 at 11h 14m 27s.xml">
       <configuration name="RoughTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoughTest - 2019.01.01 at 13h 27m 14s.xml">
+    <history-entry file="RoughTest - 2019.01.06 at 11h 15m 07s.xml">
       <configuration name="RoughTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoughTest_testMethod1 - 2019.01.01 at 13h 29m 09s.xml">
-      <configuration name="RoughTest.testMethod1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoughTest - 2019.01.01 at 13h 29m 52s.xml">
+    <history-entry file="RoughTest - 2019.01.06 at 11h 16m 28s.xml">
       <configuration name="RoughTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoughTest_testMethod2 - 2019.01.01 at 13h 45m 15s.xml">
-      <configuration name="RoughTest.testMethod2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoughTest_testMethod2 - 2019.01.01 at 13h 45m 54s.xml">
-      <configuration name="RoughTest.testMethod2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoughTest_testMethod2 - 2019.01.01 at 13h 48m 10s.xml">
-      <configuration name="RoughTest.testMethod2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoughTest_testMethod2 - 2019.01.01 at 13h 48m 43s.xml">
-      <configuration name="RoughTest.testMethod2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="RoughTest - 2019.01.01 at 13h 49m 13s.xml">
+    <history-entry file="RoughTest - 2019.01.06 at 11h 17m 59s.xml">
       <configuration name="RoughTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="RoughTest - 2019.01.01 at 13h 50m 13s.xml">
+    <history-entry file="RoughTest - 2019.01.06 at 11h 19m 24s.xml">
+      <configuration name="RoughTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoughTest - 2019.01.06 at 11h 20m 18s.xml">
+      <configuration name="RoughTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoughTest - 2019.01.06 at 11h 24m 53s.xml">
+      <configuration name="RoughTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoughTest_testMethod2 - 2019.01.06 at 11h 28m 04s.xml">
+      <configuration name="RoughTest.testMethod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoughTest_testMethod2 - 2019.01.06 at 11h 28m 56s.xml">
+      <configuration name="RoughTest.testMethod2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="RoughTest - 2019.01.06 at 11h 33m 20s.xml">
       <configuration name="RoughTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28097165" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29068825" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +418,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32149202" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32149202" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39964476" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -407,7 +470,8 @@
     <MESSAGE value="added BasePage and RoughTest" />
     <MESSAGE value="added access modifiers" />
     <MESSAGE value="added Home_CarsTab and HomePage_Tabs intermediate layer." />
-    <option name="LAST_COMMIT_MESSAGE" value="added Home_CarsTab and HomePage_Tabs intermediate layer." />
+    <MESSAGE value="added Home_CarsTab methods and test." />
+    <option name="LAST_COMMIT_MESSAGE" value="added Home_CarsTab methods and test." />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -423,25 +487,36 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/TempClass.java" />
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="21" selection-start-line="27" selection-start-column="8" selection-end-line="31" selection-end-column="21" />
+        <state relative-caret-position="110">
+          <caret line="49" column="4" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/configs/log4j2.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="119">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/logs/all.log">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="31" selection-end-line="18" selection-end-column="37" />
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RoughTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Cars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -450,28 +525,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/HomePage_Tabs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="127">
+          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Cars.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
+        <state relative-caret-position="110">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/RoughTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="289">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/Home_Bundle_Save_Page.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

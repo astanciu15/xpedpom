@@ -1,5 +1,6 @@
 package pages;
 
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -12,11 +13,13 @@ public class BasePage {
     protected WebDriver driver;
     protected WebDriverWait wait;
     protected Actions action;
+    protected Logger logger;
 
-    protected BasePage(WebDriver driver) {
+    protected BasePage(WebDriver driver, Logger logger) {
         this.driver = driver;
         this.wait = new WebDriverWait(driver, 10);
         this.action = new Actions(driver);
+        this.logger = logger;
     }
 
     protected void enterText(By by, String text) {
