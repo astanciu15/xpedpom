@@ -18,28 +18,31 @@ public class Home_Bundle_Save_Page extends HomePage_Tabs {
 
     public Home_Bundle_Save_Page enterOrigin(String origin) {
         enterText(this.origin, origin);
-        logger.info("Entering origin");
+        logger.info("Entering origin:" + origin);
         return this;
     }
 
     public Home_Bundle_Save_Page enterDestination(String destination) {
         enterText(this.destination, destination);
-        logger.info("Entering destination");
+        logger.info("Entering destination:" + destination);
         return this;
     }
 
     public Home_Bundle_Save_Page enterDepartingDate(String departingDate) {
         enterText(this.departingDate, departingDate);
+        logger.info("Entering departing date:" + departingDate);
         return this;
     }
 
     public Home_Bundle_Save_Page enterReturningDate(String returningDate) {
         enterText(this.returningDate, returningDate);
+        logger.info("Entering returning date:" + returningDate);
         return this;
     }
 
     public Home_Bundle_Save_Page clickSearchButton() {
         clickButton(this.searchButton);
+        logger.info("Click on search button.");
         return this;
     }
 

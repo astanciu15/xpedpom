@@ -18,10 +18,12 @@ public class HomePage_Tabs extends BasePage {
 
     public void clickBundleAndSaveTab() {
         clickButton(bundleAndSaveTab);
+        logger.info("Click on Bundle and Save tab.");
     }
 
     public void clickCarsTab() {
         clickButton(carsTab);
+        logger.info("Click on Cars tab.");
     }
 
 }

@@ -35,6 +35,7 @@ public class Home_Cars extends HomePage_Tabs {
 
     public void enterPickupDropoffLocations(String pickupLocation, String dropoffLocation) {
         enterPickingUp(pickupLocation).enterDroppingOff(dropoffLocation);
+        logger.info("Entering picking up location: " + pickupLocation + ", and dropping off location: " + dropoffLocation);
     }
 
     private Home_Cars enterPickingUpDate(String pickupDate) {
@@ -49,10 +50,12 @@ public class Home_Cars extends HomePage_Tabs {
 
     public void enterPickupDropoffDates(String pickupDate, String dropoffDate) {
         enterPickingUpDate(pickupDate).enterDroppingOffDate(dropoffDate);
+        logger.info("Entering pick-up date: " + pickupDate + ", and drop-off date: " + dropoffDate);
     }
 
     public void checkAarpCheckbox() {
         checkCheckbox(this.aarpCheckbox);
+        logger.info("Check AARP checkbox");
     }
 
     public void uncheckAarpCheckbox() {
@@ -73,10 +76,12 @@ public class Home_Cars extends HomePage_Tabs {
 
     public void selectPickupDropoffTimes(String pickupTime, String dropoffTime) {
         selectPickupTime(pickupTime).selectDropoffTime(dropoffTime);
+        logger.info("Select pickup time: " + pickupTime + ", and drop-off time: " + dropoffTime);
     }
 
     public void clickSearchButton() {
         clickButton(searchButton);
+        logger.info("Click on Search button");
     }
 
 }
