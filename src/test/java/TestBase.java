@@ -1,12 +1,13 @@
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.junit.After;
-import org.junit.Before;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import pages.Home_Bundle_Save_Page;
 import pages.Home_Cars;
+import pages.Home_Cruises;
 
 import java.util.concurrent.TimeUnit;
 
@@ -14,10 +15,11 @@ public class TestBase {
     private WebDriver driver;
     protected Home_Bundle_Save_Page homeBundleSavePage;
     protected Home_Cars homeCars;
+    protected Home_Cruises homeCruises;
     protected Logger logger;
 
 
-    @Before
+    @BeforeTest
     public void setUp() {
         logger = LogManager.getLogger();
         logger.info("Executing setup");
@@ -28,9 +30,10 @@ public class TestBase {
 
         homeBundleSavePage = new Home_Bundle_Save_Page(driver, logger);
         homeCars = new Home_Cars(driver, logger);
+        homeCruises = new Home_Cruises(driver, logger);
     }
 
-    @After
+    @AfterTest
     public void close() {
         logger.info("Test was executed.");
         driver.quit();

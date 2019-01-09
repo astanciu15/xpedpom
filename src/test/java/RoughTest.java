@@ -1,5 +1,9 @@
-import org.junit.Test;
+import listeners.TestSuiteListener;
+import listeners.TestTestListener;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
+@Listeners({TestTestListener.class})
 public class RoughTest extends TestBase {
 
     @Test
@@ -28,5 +32,14 @@ public class RoughTest extends TestBase {
         homeCars.selectPickupDropoffTimes("0415AM", "0930PM");
         homeCars.checkAarpCheckbox();
         homeCars.clickSearchButton();
+    }
+
+    @Test
+    public void testMethod3(){
+        homeCruises.navigateToBasePage();
+        homeCruises.clickCruisesTab();
+        homeCruises.enterGoingTo("cuba");
+        homeCruises.enterDepartureMonth("2019-09-01");
+        homeCruises.clickSearchButton();
     }
 }

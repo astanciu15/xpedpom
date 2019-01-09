@@ -7,8 +7,8 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Home_Cars extends HomePage_Tabs {
 
-    Select pickupTimeSelect;
-    Select dropoffTimeSelect;
+    private Select pickupTimeSelect;
+    private Select dropoffTimeSelect;
     private By pickingUp = By.id("car-pickup-hp-car");
     private By droppingOff = By.id("car-dropoff-hp-car");
     private By pickupDate = By.id("car-pickup-date-hp-car");
@@ -75,7 +75,9 @@ public class Home_Cars extends HomePage_Tabs {
     }
 
     public void selectPickupDropoffTimes(String pickupTime, String dropoffTime) {
-        selectPickupTime(pickupTime).selectDropoffTime(dropoffTime);
+        selectPickupTime(pickupTime);
+        waitForDOM(1000);
+        selectDropoffTime(dropoffTime);
         logger.info("Select pickup time: " + pickupTime + ", and drop-off time: " + dropoffTime);
     }
 

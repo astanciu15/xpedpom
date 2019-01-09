@@ -25,6 +25,7 @@ public class BasePage {
     protected void enterText(By by, String text) {
         waitForDOM(1000);
         driver.findElement(by).sendKeys(Keys.chord(Keys.CONTROL, "a"), text);
+        System.out.println("");
         clickElsewhere();
     }
 
@@ -35,6 +36,7 @@ public class BasePage {
     protected void clickElsewhere() {
         action.moveByOffset(1, 1).click().build().perform();
     }
+
 
     protected void navigateToUrl(String url) {
         driver.get(url);
