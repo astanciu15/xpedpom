@@ -1,0 +1,17 @@
+2019-01-09 14:37:20.091 [main] INFO  TestBase - Executing setup
+2019-01-09 14:37:37.275 [main] INFO  TestBase - Entering origin:Luqa, Malta (MLA-Malta Intl.)
+2019-01-09 14:37:38.798 [main] INFO  TestBase - Entering destination:Bucharest, Romania
+2019-01-09 14:37:40.046 [main] INFO  TestBase - Entering departing date:03/11/2019
+2019-01-09 14:37:41.377 [main] INFO  TestBase - Entering returning date:03/17/2019
+2019-01-09 14:37:42.778 [main] INFO  TestBase - Click on search button.
+2019-01-09 14:37:48.449 [main] INFO  TestBase - Click on Cars tab.
+2019-01-09 14:37:51.566 [main] INFO  TestBase - Entering picking up location: Malta, Montana, and dropping off location: New York, New York
+2019-01-09 14:37:54.638 [main] INFO  TestBase - Entering pick-up date: 03/11/2019, and drop-off date: 03/17/2019
+2019-01-09 14:37:55.882 [main] INFO  TestBase - Select pickup time: 0415AM, and drop-off time: 0930PM
+2019-01-09 14:37:55.967 [main] INFO  TestBase - Check AARP checkbox
+2019-01-09 14:37:57.956 [main] INFO  TestBase - Click on Search button
+2019-01-09 14:38:03.951 [main] INFO  TestBase - Click on Cruises tab.
+2019-01-09 14:38:04.357 [main] INFO  TestBase - Entering going to location: cuba
+2019-01-09 14:38:05.521 [main] INFO  TestBase - Entering departure month: 2019-09-01
+2019-01-09 14:38:07.144 [main] INFO  TestBase - Click on Search button
+2019-01-09 14:38:07.146 [main] INFO  TestBase - Test was executed.
