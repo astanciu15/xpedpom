@@ -8,6 +8,7 @@ public class HomePage_Tabs extends BasePage {
     private By bundleAndSaveTab = By.id("tab-package-tab-hp");
     private By carsTab = By.id("tab-car-tab-hp");
     private By cruisesTab = By.id("tab-cruise-tab-hp");
+    private By thingsToDoTab = By.id("tab-activity-tab-hp");
 
     public HomePage_Tabs(WebDriver driver, Logger logger) {
         super(driver, logger);
@@ -30,6 +31,11 @@ public class HomePage_Tabs extends BasePage {
     public void clickCruisesTab() {
         clickButton(cruisesTab);
         logger.info("Click on Cruises tab.");
+    }
+
+    public void clickThingsToDoTab() {
+        clickButton(thingsToDoTab);
+        logger.info("Click on Things to Do tab.");
     }
 
 }

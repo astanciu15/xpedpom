@@ -8,6 +8,7 @@ import org.testng.annotations.BeforeTest;
 import pages.Home_Bundle_Save_Page;
 import pages.Home_Cars;
 import pages.Home_Cruises;
+import pages.Home_Things_to_Do;
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,6 +17,7 @@ public class TestBase {
     protected Home_Bundle_Save_Page homeBundleSavePage;
     protected Home_Cars homeCars;
     protected Home_Cruises homeCruises;
+    protected Home_Things_to_Do homeThingstoDo;
     protected Logger logger;
 
 
@@ -31,6 +33,7 @@ public class TestBase {
         homeBundleSavePage = new Home_Bundle_Save_Page(driver, logger);
         homeCars = new Home_Cars(driver, logger);
         homeCruises = new Home_Cruises(driver, logger);
+        homeThingstoDo = new Home_Things_to_Do(driver, logger);
     }
 
     @AfterTest

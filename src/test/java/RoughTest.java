@@ -42,4 +42,13 @@ public class RoughTest extends TestBase {
         homeCruises.enterDepartureMonth("2019-09-01");
         homeCruises.clickSearchButton();
     }
+
+    @Test
+    public void testMethod4(){
+        homeThingstoDo.navigateToBasePage();
+        homeThingstoDo.clickThingsToDoTab();
+        homeThingstoDo.enterDestination("Argentina, Spain");
+        homeThingstoDo.enterFromToDate("05/15/2019", "05/20/2019");
+        homeThingstoDo.clickSearchButton();
+    }
 }
