@@ -1,13 +1,12 @@
-import listeners.TestSuiteListener;
-import listeners.TestTestListener;
+import listeners.TestListener;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
-@Listeners({TestTestListener.class})
+@Listeners({TestListener.class})
 public class RoughTest extends TestBase {
 
     @Test
-    public void testMethod1() {
+    public void testBundleAndSave() {
 //        homeBundleSavePage.navigateTo();
 //        homeBundleSavePage.enterOrigin("Luqa, Malta (MLA-Malta Intl.)");
 //        homeBundleSavePage.enterDestination("Bucharest, Romania");
@@ -24,7 +23,7 @@ public class RoughTest extends TestBase {
     }
 
     @Test
-    public void testMethod2() {
+    public void testCars() {
         homeCars.navigateToBasePage();
         homeCars.clickCarsTab();
         homeCars.enterPickupDropoffLocations("Malta, Montana", "New York, New York");
@@ -35,7 +34,7 @@ public class RoughTest extends TestBase {
     }
 
     @Test
-    public void testMethod3(){
+    public void testCruises(){
         homeCruises.navigateToBasePage();
         homeCruises.clickCruisesTab();
         homeCruises.enterGoingTo("cuba");
@@ -44,7 +43,7 @@ public class RoughTest extends TestBase {
     }
 
     @Test
-    public void testMethod4(){
+    public void testThingsToDo(){
         homeThingstoDo.navigateToBasePage();
         homeThingstoDo.clickThingsToDoTab();
         homeThingstoDo.enterDestination("Argentina, Spain");

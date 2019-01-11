@@ -4,30 +4,30 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
-public class TestTestListener implements ITestListener {
+public class TestListener implements ITestListener {
 
-    public TestTestListener() {
+    public TestListener() {
         System.out.println("Test3Listener constructor");
     }
 
     @Override
     public void onTestStart(ITestResult result) {
-        System.out.println("Test Started. "+result.getStartMillis());
+        System.out.println("Test Started: " +result.getStartMillis() + " "+result.getName());
     }
 
     @Override
     public void onTestSuccess(ITestResult result) {
-        System.out.println("Test Success. "+result.getEndMillis());
+        System.out.println("Test Success: "+result.getEndMillis());
     }
 
     @Override
     public void onTestFailure(ITestResult result) {
-        System.out.println("Test Failed. "+result.getTestName());
+        System.out.println("Test Failed: "+result.getTestName() + " "+result.getName());
     }
 
     @Override
     public void onTestSkipped(ITestResult result) {
-        System.out.println("Test Skipped. "+result.getTestName());
+        System.out.println("Test Skipped. "+result.getName());
     }
 
     @Override
