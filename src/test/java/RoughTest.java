@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 @Listeners({TestListener.class})
 public class RoughTest extends TestBase {
 
-    @Test
+    @Test (groups = {"tag1","tag2"})
     public void testBundleAndSave() {
 //        homeBundleSavePage.navigateTo();
 //        homeBundleSavePage.enterOrigin("Luqa, Malta (MLA-Malta Intl.)");
@@ -22,7 +22,7 @@ public class RoughTest extends TestBase {
                 .clickSearchButton();
     }
 
-    @Test
+    @Test (groups = { "tag2" })
     public void testCars() {
         homeCars.navigateToBasePage();
         homeCars.clickCarsTab();
@@ -33,7 +33,7 @@ public class RoughTest extends TestBase {
         homeCars.clickSearchButton();
     }
 
-    @Test
+    @Test (groups = { "tag1" })
     public void testCruises(){
         homeCruises.navigateToBasePage();
         homeCruises.clickCruisesTab();
@@ -42,7 +42,7 @@ public class RoughTest extends TestBase {
         homeCruises.clickSearchButton();
     }
 
-    @Test
+    @Test (groups = { "tag2" })
     public void testThingsToDo(){
         homeThingstoDo.navigateToBasePage();
         homeThingstoDo.clickThingsToDoTab();

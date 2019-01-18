@@ -21,7 +21,7 @@ public class TestBase {
     protected Logger logger;
 
 
-    @BeforeTest
+    @BeforeTest (groups = { "tag1" })
     public void setUp() {
         logger = LogManager.getLogger();
         logger.info("Executing setup");
@@ -36,7 +36,7 @@ public class TestBase {
         homeThingstoDo = new Home_Things_to_Do(driver, logger);
     }
 
-    @AfterTest
+    @AfterTest (groups = { "tag1" })
     public void close() {
         logger.info("Test was executed.");
         driver.quit();

@@ -1,21 +1,11 @@
-2019-01-11 15:52:24.549 [main] INFO  TestBase - Executing setup
-2019-01-11 15:52:39.484 [main] INFO  TestBase - Entering origin:Luqa, Malta (MLA-Malta Intl.)
-2019-01-11 15:52:40.963 [main] INFO  TestBase - Entering destination:Bucharest, Romania
-2019-01-11 15:52:42.274 [main] INFO  TestBase - Entering departing date:03/11/2019
-2019-01-11 15:52:43.550 [main] INFO  TestBase - Entering returning date:03/17/2019
-2019-01-11 15:52:44.864 [main] INFO  TestBase - Click on search button.
-2019-01-11 15:52:49.233 [main] INFO  TestBase - Click on Cars tab.
-2019-01-11 15:52:52.544 [main] INFO  TestBase - Entering picking up location: Malta, Montana, and dropping off location: New York, New York
-2019-01-11 15:52:55.324 [main] INFO  TestBase - Entering pick-up date: 03/11/2019, and drop-off date: 03/17/2019
-2019-01-11 15:52:56.607 [main] INFO  TestBase - Select pickup time: 0415AM, and drop-off time: 0930PM
-2019-01-11 15:52:56.706 [main] INFO  TestBase - Check AARP checkbox
-2019-01-11 15:52:58.888 [main] INFO  TestBase - Click on Search button
-2019-01-11 15:53:03.525 [main] INFO  TestBase - Click on Cruises tab.
-2019-01-11 15:53:03.894 [main] INFO  TestBase - Entering going to location: cuba
-2019-01-11 15:53:04.977 [main] INFO  TestBase - Entering departure month: 2019-09-01
-2019-01-11 15:53:10.525 [main] INFO  TestBase - Click on Search button
-2019-01-11 15:53:16.284 [main] INFO  TestBase - Click on Things to Do tab.
-2019-01-11 15:53:17.753 [main] INFO  TestBase - Enter destination: Argentina, Spain
-2019-01-11 15:53:20.133 [main] INFO  TestBase - Entering from date: 05/15/2019, and to date: 05/20/2019
-2019-01-11 15:53:20.208 [main] INFO  TestBase - Click on Search button
-2019-01-11 15:53:20.209 [main] INFO  TestBase - Test was executed.
+2019-01-18 14:27:55.163 [main] INFO  TestBase - Executing setup
+2019-01-18 14:28:09.475 [main] INFO  TestBase - Entering origin:Luqa, Malta (MLA-Malta Intl.)
+2019-01-18 14:28:11.015 [main] INFO  TestBase - Entering destination:Bucharest, Romania
+2019-01-18 14:28:12.348 [main] INFO  TestBase - Entering departing date:03/11/2019
+2019-01-18 14:28:13.625 [main] INFO  TestBase - Entering returning date:03/17/2019
+2019-01-18 14:28:14.960 [main] INFO  TestBase - Click on search button.
+2019-01-18 14:28:20.631 [main] INFO  TestBase - Click on Cruises tab.
+2019-01-18 14:28:21.188 [main] INFO  TestBase - Entering going to location: cuba
+2019-01-18 14:28:22.290 [main] INFO  TestBase - Entering departure month: 2019-09-01
+2019-01-18 14:28:32.516 [main] INFO  TestBase - Click on Search button
+2019-01-18 14:28:32.519 [main] INFO  TestBase - Test was executed.

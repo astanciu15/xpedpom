@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+    <!-- Browser name can be set at suite level or at test level (test level takes precedence -->
+
+    <test name="Regression test">
+
+        <groups>
+            <run>
+                <include name="tag1"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="RoughTest"/>
+        </classes>
+
+
+        <!--<classes>-->
+            <!--<class name="RoughTest">-->
+                <!--<methods>-->
+                    <!--<include name="testBundleAndSave" />-->
+                    <!--<include name="testCars" />-->
+                    <!--<include name="testCruises" />-->
+                <!--</methods>-->
+            <!--</class>-->
+        <!--</classes>-->
+
+    </test>
+</suite>
